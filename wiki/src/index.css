@@ -1,0 +1,154 @@
+
+  @media screen and (max-width: 576px) {
+    
+    #sumBox {
+      width: 100%;    
+      margin-right: 0;
+      margin-left: 0;
+    } 
+    #samane, #searchicon {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 576px) {
+    #sumBox {
+      margin-right: 35px;
+      width: 270px;
+      position: relative;float: left;
+      left: 20px;
+    }
+  }
+
+
+@media screen and (max-width: 768px) {
+    #m_sidebar
+    /* ,#header */
+    { 
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+    #para, #header {
+      width: 100%;
+      /*background-color: #ffffff;*/
+    }
+
+  }
+
+
+
+/* hamberger */
+/* @media screen and (max-width: 1000px) {
+    #flex_ {
+        justify-content: space-around;
+    }
+} */
+
+
+@media screen and (max-width: 800px) {
+  #sum {
+      
+  }
+}
+
+
+
+  /*  */
+.container-fluid {
+    background-color: #f6f6f6;
+}
+
+body {
+  background-color: #f6f6f6;
+
+}
+
+#para {
+  background-color: white;
+  margin-right: 180px;
+  border-bottom: 0.5px solid #a7d7f9;
+  border-right: 0.5px solid #a7d7f9;
+  border-top: 0.5px solid #a7d7f9;
+}
+
+#m_sidebar > ul {
+    list-style: none;
+    justify-content: 
+}
+
+#first_ul {
+    margin-top: 25px;
+}
+
+#m_sidebar > ul > li {
+    height: 19.5px;
+    margin-right: 27px;
+    text-align: right;
+}
+
+#m_sidebar > ul > li > a {
+    font-size: 12px;
+    color: #0645ad;
+}
+
+.first_step {
+    color: #444444 !important;
+}
+
+.first_step_li {
+    height: 25px !important;
+    border-bottom: 0.1px solid #d8d8d8;
+}
+
+
+a {
+    font-size: 13px;
+}
+
+#top_texts > a {
+    padding: 8px;
+}
+
+.foot {
+      margin-right: 185px;
+      margin-top: 20px;
+}
+
+footer p {
+  font-size: 80%;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+footer ul{
+  direction: rtl;
+  text-align: right;
+  list-style: none;
+  float: right;
+}
+
+
+footer ul li{
+  margin-left: 15px;
+}
+
+footer > div > ul:last-child{
+  margin-right: -40px;
+}
+
+footer > div a {
+  float: left;
+}
+
+footer img {
+  width: 88px;
+  height: 31px;
+}
+
+
+
+/* همبرگر منو */

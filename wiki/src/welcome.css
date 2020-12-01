@@ -1,0 +1,47 @@
+
+/*background: linear-gradient(to left,#b3ccff,white,white) !important;*/
+
+
+#para {
+    padding-top: 40px;
+}
+
+#pare h1 {
+    margin-bottom: 1em !important;
+}
+
+#para ul{
+    direction: rtl;
+    text-align: right;
+}
+
+#para ul li {
+    margin-left: 1.4em;
+}
+
+#para .fl{
+    list-style: none;
+}
+
+hr {
+    margin-bottom: .2em;
+}
+
+.hstared {
+    background-image: url(star.png);
+}
+
+.image {
+    float: left;
+    padding-right: 1em;
+}
+
+.fStared {
+    font-weight: 700;
+    font-size: 1em;
+    margin: 0 40px;
+}
+p {
+    /* text-align: right; */
+    direction: rtl;
+}

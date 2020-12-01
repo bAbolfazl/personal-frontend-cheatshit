@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<ul class="parent">ی
+	<li class="child">first</li>
+	<li class="child">second</li>
+	<li class="child">third</li>
+</ul>
+
+<script>
+	console.log('running');
+
+	const parent = document.querySelector('.parent');
+
+
+	const handleClick = (e) => {
+		console.log(e.target)
+	}
+
+	parent.addEventListener('click', handleClick);
+
+
+	
+</script>
+
+</body>
+</html>

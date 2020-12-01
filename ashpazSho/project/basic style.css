@@ -1,0 +1,102 @@
+@font-face {
+    font-family: BYekan;
+    src: url(fonts/BYekan.eot) format('eot'),
+    url(fonts/BYekan.woff) format('woff'),
+    url(fonts/BYekan.ttf) format('truetype');
+}
+
+
+
+
+:root {
+    --greentext: #44bb82;
+    --greenbg: #ecf8f2;
+    --hover: #ff4a4d;
+    --bluebtn: #37b4ee;
+}
+
+
+
+
+
+.mygreenb {
+    background-color: var(--greentext);
+    color: #f9f8f1;
+}
+
+.mygreent {
+    color: var(--greentext);
+}
+
+/*  */
+
+* {
+    border-radius: 5px;
+    direction: rtl;
+    /* text-align: right; */
+    
+    font-family:BYekan;
+    font-size: 15px;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    background-color: #f9f8f1;
+    color: #3c3c3c;
+    /* font-family:'BYekan',Sans-Serif; */
+    font-size: 15px;
+    background-image: url('img/Ashpazsho_bgptrn.png')
+}
+
+footer {
+    height: 370px;
+    background-image: url('myImg/footer\ background.PNG');
+    border-radius: 0;
+}
+
+img {
+    padding: 5px;
+    border: 1px #efeeed solid;
+}
+
+a:hover {
+    color: var(--hover);
+}
+
+#sabadkh:hover {
+    background-color: var(--hover);
+}
+
+.nohover {
+    color: #ced4da;
+}
+
+.nohover:hover {
+    background-color: #aac9eb;
+}
+
+
+
+/* drop down */
+
+#dropL {
+    background-color: var(--hover);
+}
+
+.dropdown-item:hover {
+    color: var(--hover);
+    background-color: inherit;
+}
+
+/* .dropdown-toggle:visited {
+    border: solid red;
+    color: red;
+} */
+
+.dropdown-toggle:after{
+ color: var(--hover);
+}
+/* #dd:hover {} */

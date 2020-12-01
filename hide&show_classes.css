@@ -1,0 +1,11 @@
+
+.hide {
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.show {
+  height: unset;
+  opacity: 1;
+  visibility: visible;
+}

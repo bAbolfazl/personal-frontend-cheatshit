@@ -1,0 +1,110 @@
+/* .icon {
+     font-size: 70px;
+} */
+
+/* فلش های اسلایدرهای محصولات و مقالات */
+
+/* 
+* {
+        -webkit-user-select: none;  /* Chrome all / Safari all */
+          -moz-user-select: none;     /* Firefox all */
+          -ms-user-select: none;      /* IE 10+ */
+          user-select: none;          /* Likely future */      
+} */
+
+
+
+.slideb {
+    z-index: 10;
+    /* border-radius: 0 5px 5px 0; */
+}
+
+
+.slideb:hover {
+    background-color: gray;
+    z-index: 10;
+}
+
+
+.slidebR {
+    border-radius: 0 5px 5px 0;
+}
+
+
+.slidebL {
+    border-radius: 5px 0 0 5px;
+}
+
+/* باکس محصولات رایگان و فورشی */
+
+.afzoodanV {
+    display: none;
+}
+
+.jabe:hover :nth-child(4) {
+    display: block
+}
+
+/* باکس مقاله های اموزشی */
+
+.moshaV {
+    display: none;
+}
+
+.jabee:hover :nth-child(4) {
+    display: block;
+}
+
+.jabee:hover {
+    margin-top: -14px;
+    margin-bottom: 14px;
+}
+
+.jabee:hover img{
+    opacity: .085;
+}
+.jabee .text-center{
+    display: none;
+}
+.jabee:hover .text-center {
+    display: block;
+}
+
+.carousel-caption {
+    width:500px;
+    z-index:10;
+    color:#fff;
+    text-align:right;
+    top:70%;
+    right: 3%;
+    bottom:auto;
+    -webkit-transform:translate(0, -50%);
+    -ms-transform:translate(0, -50%);
+    transform:translate(0, -50%);
+    }
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+    @media (max-width: 768px) {
+    .asas, .raigan {
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    .raigan {
+        width: 373px !important;
+        height: 207px !important;
+    }
+}
+
+
+
+
+
+
+.sale_products_item_wrapper {
+    transition: all 0.8s ease;
+}

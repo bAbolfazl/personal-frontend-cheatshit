@@ -1,0 +1,2 @@
+you should set it with opacity
+because transition neead some numeric properties to do transition on it
